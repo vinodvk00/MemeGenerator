@@ -1,0 +1,41 @@
+#btn {
+    color: blue;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    color: #333;
+    border: 2px solid #333;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+#btn:hover {
+    transform: translateX(-50%) scale(1.1);
+    border-color: rgb(80, 73, 87);
+}
+
+.meme-source{
+    margin: 10;
+}
+
+.main img{
+    margin-top: 5rem;
+    width: 30rem;
+    height: 30rem;
+    position: fixed;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    transform: translateX(-50%);
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 7rem;
+    color: rgb(80, 73, 87);
+}
